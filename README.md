@@ -6,7 +6,7 @@ class-01-Node Ecosystem :star: :star:
 ### Author: sohad Qtaitat
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-sohad/401-class-01/pull/1)
+* [submission PR](https://github.com/401-advanced-javascript-sohad/node-Ecosystem/pull/1)
 * [actions](https://github.com/401-advanced-javascript-sohad/node-Ecosystem/commit/5eaf1f019aefa9cfc2acb512174c57344cc239b6/checks?check_suite_id=418944196)
 
 
