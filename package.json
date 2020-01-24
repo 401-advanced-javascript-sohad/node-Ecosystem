@@ -1,0 +1,26 @@
+{
+  "name": "node-Ecosystem",
+  "version": "1.0.0",
+  "description": "class-01-Node Ecosystem :star: :star:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+        "test": "jest --verbose --coverage"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-sohad/node-Ecosystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-sohad/node-Ecosystem/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-sohad/node-Ecosystem#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  }
+}
