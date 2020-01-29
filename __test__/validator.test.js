@@ -59,7 +59,7 @@ describe('validator module performs basic validation of', () => {
   it('numeric rule', () =>{
     let rule1 = 'negative';
     let rule2 = 'positive';
-    let rule3 = 'zero'
+    let rule3 = 'zero';
     expect(validator.notZero(negativeNum,rule1)).toBeTruthy();
     expect(validator.notZero(positiveNum,rule1)).toBeFalsy();
     expect(validator.notZero(negativeNum,rule2)).toBeFalsy();
@@ -68,7 +68,7 @@ describe('validator module performs basic validation of', () => {
     expect(validator.notZero(zero,rule1)).toBeFalsy();
     expect(validator.notZero(zero,rule2)).toBeFalsy();
     expect(validator.notZero(zero,rule3)).toBeFalsy();
-  }
+  },
 
   );
 
@@ -110,20 +110,20 @@ describe('validator module performs complex validations', () => {
     expect(validator.hasProperty(person2,propertyName)).toBeFalsy();
   });
 
-//   it('validates the proper types of object properties', () => {
-//     // i.e. person.name must be a string, etc.
-//     expect(true).toBeFalsy();
-//   });
+  //   it('validates the proper types of object properties', () => {
+  //     // i.e. person.name must be a string, etc.
+  //     expect(true).toBeFalsy();
+  //   });
 
-//   it('validates the types of values contained in an array', () => {
-//     // i.e. an array of all strings or numbers
-//     expect(true).toBeFalsy();
-//   });
+  //   it('validates the types of values contained in an array', () => {
+  //     // i.e. an array of all strings or numbers
+  //     expect(true).toBeFalsy();
+  //   });
 
-//   it('validates a value array against an approved list', () => {
-//     // i.e. a string might only be allowed to be "yes" or "no"
-//     expect(true).toBeFalsy();
-//   });
+  //   it('validates a value array against an approved list', () => {
+  //     // i.e. a string might only be allowed to be "yes" or "no"
+  //     expect(true).toBeFalsy();
+  //   });
 
   // TODO: Cover so, so many more cases
 
